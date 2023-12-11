@@ -22,7 +22,7 @@ class MyLoadPage extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Padding(
-          padding: const EdgeInsets.only(top: 40.0),
+          padding: const EdgeInsets.only(top: 35.0),
           child: Center (
             child: SvgPicture.asset("assets/images/load_screen_image.svg"),
           ),
